@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            >
+        <Button android:id="@+id/open_bt"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:text="烧水"
+                />
+        <Button android:id="@+id/keep_bt"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/open_bt"
+                android:text="保温"/>
+        <Button android:id="@+id/process_bt"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/keep_bt"
+                android:text="除氯"
+                />
+        <Button android:id="@+id/close_bt"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/process_bt"
+                android:text="停止"/>
+
+    </RelativeLayout>
+</LinearLayout>
+
